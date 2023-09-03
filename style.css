@@ -1,0 +1,142 @@
+*{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-image: url(bg.gif);
+    background-size: cover;
+    background-position: center;
+}
+
+.head{
+    border: 1px solid #ccc; 
+    border-radius: 20px;
+    display: inline-block;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    color: aliceblue;
+    background-color: rgb(0, 0, 0);
+}
+
+label{
+    font-size: large;
+    color: #ffffff;
+}
+
+input{
+    width: 300px;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+button{
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+
+form {
+    margin: 0 auto;
+    width: 300px;
+    padding: 150px;
+    border: 5px solid #000000;
+    border-radius: 10px;
+    font-family: lita;
+    background-image: url(natural.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.box {
+    display: inline-block;
+    margin: 10px;
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    transition: transform 0.2s;
+    
+}
+
+.box:hover {
+   transform: scale(1.1);
+   background-color: #ffffff;
+   transition: 0.5s;
+   color: #000000;
+}
+
+h1{
+    border-radius: 10px;
+    display: inline-block;
+    background-color: aliceblue;
+    padding: auto;
+
+}
+
+
+p{
+    font-size: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    background-color: aliceblue;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-family: lita;
+}
+
+button {
+    font-family: lita;
+    font-size: 16pt;
+    transition: 0.5s;
+}
+
+button:hover{
+    transition: 0.5s;
+    background-color: black;
+    color: aliceblue;
+}
+
+ul{
+    padding: 0px;
+}
+
+ul li a{
+    border-radius: 10px;
+    padding: 10px;
+    display: inline-block;
+    background-color: #ffffff;
+    transition: 0.5s;
+}
+
+ul li a:hover{
+    background-color: #000000;
+    color: aliceblue;
+    transition: 0.5s;
+}
+
+a{
+    color: #000000;
+    text-decoration: none;
+}
+
+.yellow{
+    background-color: #f2ff36;
+}
+
+.green{
+    background-color: #14ff62;
+}
+
+.orange{
+    background-color: orange;
+}
+
+.red{
+    background-color: rgb(255, 43, 43);
+}

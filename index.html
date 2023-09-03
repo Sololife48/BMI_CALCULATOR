@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h1 class="head">BMI Calculator</h1>
+    <form>
+      <label>Weight (kg): <input type="number" id="weight" /></label><br />
+      <label>Height (cm): <input type="number" id="height" /></label><br />
+      <button type="button" onclick="calculateBMI()">Calculate</button>
+      <button type="button" onclick="location.reload()">Reset</button>
+    </form>
+    <section class="box">
+      <h1 id="explain"></h1><br/>
+      <p id="result"></p>
+    </section>
+    <ul>
+      <li>
+        <a href="https://shorturl.at/egtS0">ข้อมูลเพิ่มเติมเกี่ยวกับBMI</a>
+      </li>
+    </ul>
+
+    <script src="app.js"></script>
+  </body>
+</html>
